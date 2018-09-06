@@ -1,0 +1,12 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 544257108497-vchm24gjke9urhoah7ou0pbucsdp031l.apps.googleusercontent.com
+            client-secret: 4XbPMdMcCw-54XCkbwdYCPEN
+server:
+  servlet:
+    context-path: /oauth2demo
+  port: 8080
